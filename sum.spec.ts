@@ -1,6 +1,6 @@
-// import sum from 'sum.js';
+import { sum } from './sum';
 
-const sum = require("./sum");
+// const sum = require("./sum");
 
 describe("Add numbers", () => {
     
@@ -8,8 +8,6 @@ describe("Add numbers", () => {
     [[1, 1], 2],
     [[2, 3], 5],
     [[4, 2], 6],
-    [[undefined, 3], NaN],
-    [[1, null], 1],
     [[-1, 1], 0],
     [[-5, -10], -15],
     [[5, 10, 20], 35],

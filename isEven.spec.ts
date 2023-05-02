@@ -1,4 +1,5 @@
-const isEven = require('./isEven')
+// const isEven = require('./isEven')
+import { isEven } from './isEven';
 
 describe('isEven', () => {
 

@@ -1,4 +1,4 @@
-const isEven = (num) => {
+export const isEven = (num: number): boolean => {
     if(num < 0){
       num *= -1
     }
@@ -13,4 +13,4 @@ const isEven = (num) => {
     }
   }
   
-  module.exports = isEven;
+  // module.exports = isEven;
