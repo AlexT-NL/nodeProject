@@ -67,10 +67,10 @@ const countChar = (word: string, char: string): number => {
   return count;
 };
 
-// hashTriangle(7);
-// fizzBuzz(15);
-// chessBoard(8);
-// console.log(smallestArg(5,10));
-// console.log(smallestArg(50,5));
-// console.log(isEven(-8));
-// console.log(countChar("kakkerlak", "k"));
+hashTriangle(7);
+fizzBuzz(15);
+chessBoard(8);
+console.log(smallestArg(5, 10));
+console.log(smallestArg(50, 5));
+console.log(isEven(-8));
+console.log(countChar('akkerman', 'k'));
